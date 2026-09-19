@@ -1,0 +1,28 @@
+# data and results never go in the repo
+data/
+outputs/
+*.tif
+*.tiff
+*.parquet
+*.gpkg
+*.csv
+*.zip
+# python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+venv/
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# keep small published result tables
+!results/
+!results/*.csv
+
+# Figures exported for posts, not for the repo
+media/
+scripts/

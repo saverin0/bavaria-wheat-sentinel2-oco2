@@ -1,0 +1,21 @@
+# Runtime dependencies for the notebooks (Colab installs these in the first cell).
+# Pinned loosely; the recorded run used polars 1.31, numpy 2.0, rasterio 1.4.
+numpy
+pandas
+polars
+pyarrow
+geopandas
+shapely
+pyproj
+rasterio
+rioxarray
+xarray
+exactextract
+pystac-client
+tqdm
+joblib
+matplotlib
+folium
+branca
+psutil
+# GPU only (Colab A100/T4 runtimes, CUDA 12): cupy-cuda12x
